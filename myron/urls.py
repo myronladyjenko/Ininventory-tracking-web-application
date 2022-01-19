@@ -14,7 +14,7 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
 from django.conf import settings
 from calc import views
 
@@ -25,6 +25,6 @@ urlpatterns = [
      path("", views.show, name="show"),
      path("update/<int:id>", views.update, name="update"),
      path("delete/<int:id>", views.delete, name="delete"),
-     path('export-csv/', views.export, name="export"),
+     path("export/", views.export, name="export"),
  ]
 
