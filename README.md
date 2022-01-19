@@ -4,11 +4,8 @@
 
 1. Clone the repo:
 
-Lebenslangerschicksalsschatz: Lifelong Treasure of Destiny 
-
-git clone https://github.com/myronladyjenko/Inventory-tracking-web-application.git
-
-cd Inventory-tracking-web-application
+    git clone https://github.com/myronladyjenko/Inventory-tracking-web-application.git  
+    cd Inventory-tracking-web-application
 
 2. The database is not available so to run the user would need to create postgresql database and then update the lines 80-84 in myron/settings.py
 
