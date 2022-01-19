@@ -28,3 +28,11 @@
     python manage.py migrate
     python manage.py runserver
     ```
+    
+4. Access 
+
+    ```sh
+    http://localhost:8000/
+    ```
+###### It was an amazing challenged! Thank you!    
+    
