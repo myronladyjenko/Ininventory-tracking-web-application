@@ -4,6 +4,8 @@
 
 1. Clone the repo:
 
+Lebenslangerschicksalsschatz: Lifelong Treasure of Destiny 
+
 git clone https://github.com/myronladyjenko/Inventory-tracking-web-application.git
 
 cd Inventory-tracking-web-application
