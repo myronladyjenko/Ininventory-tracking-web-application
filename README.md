@@ -11,12 +11,14 @@
 
 2. The database is not available so to run the user would need to create postgresql database and then update the lines 80-84 in myron/settings.py
 
-DATABASES = {
-    'default': {
-        'ENGINE': '',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': ''
+```sh
+DATABASES = {  
+    'default': {  
+        'ENGINE': '',  
+        'NAME': '',  
+        'USER': '',  
+        'PASSWORD': '',  
+        'HOST': ''  
     }
 }
+```
