@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container mt-3">
+   {% csrf_token %}
+   <h4> Inventory </h4>
+   <a href="{% url 'home' %}" class="btn btn-sm btn-update">Add New</a>
+   <hr>
+   <table class="table">
+       <thead>
+           <tr>
+                <th> Product_name </th>
+                <th> Price </th>
+                <th> Quantity </th>
+           </tr>
+        </thead> 
+        <tbody>
+           {% for d in destination %}
+              <tr>
+                  <td>{{ d.product_name }}</td>
+                  <td>{{ d.price }}</td>
+                  <td>{{ d.quantity }}</td>
+                  <td>
+                    <a href="update/{{d.id}}" class="btn btn-sm btn-update">Update</a>
+                    <a href="delete/{{d.id}}" class="btn btn-sm btn-delete">Delete</a>
+                  </td>
+               </tr>      
+           {% endfor %}
+        </tbody>   
+    </table>      
+   
+</div>
+{% endblock %}
