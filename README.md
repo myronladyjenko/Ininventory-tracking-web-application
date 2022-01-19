@@ -34,5 +34,5 @@
     ```sh
     http://localhost:8000/
     ```
-##### It was an amazing challenge! Thank you!    
+#### Great challenge!     
     
