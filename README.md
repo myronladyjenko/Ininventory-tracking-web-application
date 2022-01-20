@@ -14,11 +14,11 @@
     ```sh
     DATABASES = {  
        'default': {  
-          'ENGINE': '',  
+          'ENGINE': ''django.db.backends.postgresql'',  
           'NAME': '',  
           'USER': '',  
           'PASSWORD': '',  
-          'HOST': ''  
+          'HOST': 'localhost'  
       }
     }
     ```
